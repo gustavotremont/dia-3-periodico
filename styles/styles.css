@@ -1,11 +1,9 @@
 body {
-    background-color: cornsilk;
     background-image: url('../assets/fondo-papel.jpg');
 }
 
 main {
     margin: 50px 100px;
-    background-color: whitesmoke;
 }
 
 h1#title {
@@ -13,6 +11,21 @@ h1#title {
     text-align: center;
 }
 
-article.article-background{
-    background-image: url('../assets/fondo-articulo.jpg');
+article{
+    padding: 30px;
 }
+
+div.article-background{
+    background-image: url('../assets/fondo-articulo.jpg');
+    border: 1px solid black;
+    margin: 0 0 20px;
+}
+
+section.text-columns{
+    column-count: 3;
+    padding-bottom: 20px;
+}
+
+/* img{
+    
+} */
