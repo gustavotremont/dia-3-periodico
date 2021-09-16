@@ -1,8 +1,18 @@
 body {
     background-color: cornsilk;
+    background-image: url('../assets/fondo-papel.jpg');
 }
 
 main {
     margin: 50px 100px;
     background-color: whitesmoke;
+}
+
+h1#title {
+    font-size: 2em;
+    text-align: center;
+}
+
+article.article-background{
+    background-image: url('../assets/fondo-articulo.jpg');
 }
