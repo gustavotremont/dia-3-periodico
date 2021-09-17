@@ -26,6 +26,11 @@ section.text-columns{
     padding-bottom: 20px;
 }
 
+section.img-diplay {
+    display: flex;
+    justify-content: center;
+}
+
 /* img{
     
 } */
